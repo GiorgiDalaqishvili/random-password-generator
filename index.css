@@ -1,0 +1,166 @@
+body {
+    background-color: #273549;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Vesper Libre', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#main-text {
+    background-image: url("Heading.png");
+    width: 360px;
+    height: 83px;
+    margin-left: 53.74px;
+    margin-top: 118.84px;
+}
+
+#generate-password {
+    margin-left: 53.74px; 
+}
+
+#supporting-text {
+    width: 700px;
+    height:29px;
+    color: #D5D4D8;
+    margin-left: 53.74px;
+    font-size: large;
+}
+
+#button-generate {
+  background-color: #10B981; 
+  color:#FFFFFF ; 
+  width: 197.07px;
+  height: 43.6px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#input {
+ background-color: #273549;   
+ width: 460.9px;
+ 
+ height: 30px;
+ font-size: large;
+ border:none;
+}
+
+#underline {
+    width: 460.9px;
+    border:2px solid #2F3E53;
+}
+
+.Duble-text {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    
+}
+
+#text-el {
+    cursor: pointer;
+    padding-top: 10px;
+    background-color:#263143;
+    width: 218px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    color: #55F991;
+    font-size: large;
+}
+
+#text-elTwo {
+    padding-top: 10px;
+    cursor: pointer;
+    background-color:#263143;
+    width: 218px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    color: #55F991;
+    font-size: large;
+
+}
+#text-elTwo:hover {
+    background-color: #2F3E53;
+}
+
+#text-el:hover {
+    background-color:#2F3E53 ;
+}
+    
+
+.switch {
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #for-switch {
+    font-weight: bold;
+    font-size: large;
+    color: #10B981;
+
+  }
